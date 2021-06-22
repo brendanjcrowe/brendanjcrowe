@@ -6,20 +6,10 @@
     <description>Recent content on Brendan Crowe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 May 2021 11:15:58 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 10 Apr 2021 11:00:59 -0400</lastBuildDate>
     
 	<atom:link href="https://brendanjcrowe.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Novel research on Inverse Reinforcement Learning</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/project-5/</link>
-      <pubDate>Thu, 13 May 2021 11:15:58 -0400</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/project-5/</guid>
-      <description>Continuing as a post-graduate researcher I am part of a group researching improvments to existing Inverse Reinfrocment Learning (IRL) techniques. In partiuclare our research strives to improve linear programming appraoched to robust IRL. Our goals are:
- Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards Improve estimation of the experts policy using adjustments to monte carlo methods Connect our work to BROIL, and show we can make it more scalable Show what we are doing is a special case of BROIL GAIL  Since this is an ongoing work, and I am not the sole contributor I cannot link to any code or reports.</description>
-    </item>
     
     <item>
       <title>Robust Value Approximation</title>
@@ -75,9 +65,17 @@ The first step was to collect and catalog data from Amazon with approximate sale
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/contact/</guid>
-      <description>Networking &amp;amp; Code
-   Channel: URL     LinkedIn: https://www.linkedin.com/in/brendan-j-crowe/   GitHub: https://github.com/brendanjcrowe   GitLab: https://gitlab.com/brendanjcrowe    Contact info
-   Method: Link     email: brendancrowe98@gmail.com   phone: (978)-501-1290    </description>
+      <description>         Email: brendancrowe98@gmail.com   Phone: (978)-501-1290   LinkedIn: https://www.linkedin.com/in/brendan-j-crowe/   GitHub: https://github.com/brendanjcrowe   GitLab: https://gitlab.com/brendanjcrowe    </description>
+    </item>
+    
+    <item>
+      <title>Novel research on Inverse Reinforcement Learning</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-5/</guid>
+      <description>Continuing as a post-graduate researcher, I am part of a group researching improvements to existing Inverse Reinforcement Learning (IRL) techniques. In particular our are research strives to improve linear programming approaches to robust IRL. Our goals are:
+  Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards Improve estimation of the experts policy using adjustments to monte carlo methods Connect our work to BROIL, and show we can make it more scalable Show what we are doing is a special case of BROIL and GAIL  Since this is an ongoing work and I am not the sole contributor, I cannot link to any code or reports.</description>
     </item>
     
   </channel>
