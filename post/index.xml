@@ -12,13 +12,33 @@
     
     
     <item>
-      <title>ALP &amp; RIRL</title>
+      <title>Novel research on Inverse Reinforcement Learning</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-5/</link>
+      <pubDate>Thu, 13 May 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-5/</guid>
+      <description>Continuing as a post-graduate researcher I am part of a group researching improvments to existing Inverse Reinfrocment Learning (IRL) techniques. In partiuclare our research strives to improve linear programming appraoched to robust IRL. Our goals are:
+ Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards Improve estimation of the experts policy using adjustments to monte carlo methods Connect our work to BROIL, and show we can make it more scalable Show what we are doing is a special case of BROIL GAIL  Since this is an ongoing work, and I am not the sole contributor I cannot link to any code or reports.</description>
+    </item>
+    
+    <item>
+      <title>Robust Value Approximation</title>
       <link>https://brendanjcrowe.github.io/portfolio/post/project-2/</link>
       <pubDate>Sat, 10 Apr 2021 11:00:59 -0400</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/post/project-2/</guid>
       <description>This project has 3 main goals:
- Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP) Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL) Use these methods to solve COVID-19 lockdown strategy as a control problem  We can title the overarching strategy Robust Value Approximation (RoVA). We can our first method Approximate Robust Linear Programming for Imitation Learning (ARLP-IL) We can further call our second approach Bayesian Approximate Robust Imitation Learning (BARIL)</description>
+ Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP) Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL) Use these methods to solve COVID-19 lockdown strategy as a control problem  We can title the overarching strategy Robust Value Approximation (RoVA). We first use Approximate Robust Linear Programming for Imitation Learnin wherein we combine RIRL and ALP, which can be solved as a linear program We then further discuss and show how this concept could be applied to extend BROIL, which uses Conditional Value at Risk (CVaR) instead of a minmax problem</description>
+    </item>
+    
+    <item>
+      <title>Policy and Value Iteration</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-6/</link>
+      <pubDate>Sat, 13 Feb 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-6/</guid>
+      <description>In my time studying Reinforcement Learning, me and some of my peers implemented policy and value iterations at several levels of efficiency. We test our implementations using made up COVID-19 data.
+Code is provided on GitHub</description>
     </item>
     
     <item>
@@ -27,7 +47,7 @@
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/post/project-1/</guid>
-      <description>Robust Probabilistic Imitation Learning (RPIL) is a method that I conceived where in we model a set of expert demonstrations are having two sources, a true expert and an adversary. Using logistic regression we can pose the problem as a mixture of multinomial logistic regression models. From there we can solve the non-convex optimization using a Expectation Maximization like algorithm. Experimentally I show that this algorithm can detect and remove bad demonstrations from the training set and thus perform much better that if the demonstrations are considered to be correct.</description>
+      <description>Robust Probabilistic Imitation Learning (RPIL) is a method that I conceived where in I model a set of expert demonstrations are having two sources, a true expert and an adversary. Using logistic regression we can pose the problem as a mixture of multinomial logistic regression models. From there we can solve the non-convex optimization using an Expectation Maximization like algorithm. Experimentally I show that this algorithm can detect and remove adversarial demonstrations from the training set and thus perform much better that if the demonstrations are considered to be correct.</description>
     </item>
     
     <item>
@@ -36,35 +56,17 @@
       <pubDate>Mon, 12 Oct 2020 11:14:48 -0400</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/post/project-4/</guid>
-      <description>While the pensioner of Ghent and his eminence were exchanging very low bows and a few words in voices still lower, a man of lofty stature, with a large face and broad shoulders, presented himself, in order to enter abreast with Guillaume Rym; one would have pronounced him a bull-dog by the side of a fox. His felt doublet and leather jerkin made a spot on the velvet and silk which surrounded him.</description>
+      <description>After learning about probabilistic and neural approaches to sequential machine learning I decided to apply what I had learned to the Imitation Learning (IL) domain. Since many reinforcement learning tasks can be models as Markov Decision Processes (MDPs) that have a sequential nature, I thought that it would be interesting to see in we could using neural networks and Conditional Random Fields (CRFs) to do Behavioral Cloning (BC). I decided to try solving several of the classic control tasks (mountain car, acrobot, etc) using a CRF and a bidirectional Long Short Term Memory (LSTM).</description>
     </item>
     
     <item>
-      <title>Sales volume prediction and automated purchasing pipeline</title>
+      <title>Sales volume prediction</title>
       <link>https://brendanjcrowe.github.io/portfolio/post/project-3/</link>
       <pubDate>Wed, 11 Mar 2020 11:13:32 -0400</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/post/project-3/</guid>
       <description>At Brands-Express LLC there was a need to make accurate and fast automated purchases of inventory products. I designed and implemented an end-to-end data/machine learning pipeline that met the specifications of the CEO.
-The first step was to collect and catalog data from amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase.</description>
-    </item>
-    
-    <item>
-      <title>Chapter VI: Esmeralda</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/chapter-6/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/chapter-6/</guid>
-      <description>We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. He had made up his mind about the tumult, and was determined to proceed to the end, not giving up the hope of a return of attention on the part of the public.</description>
-    </item>
-    
-    <item>
-      <title>Chapter V: Quasimodo</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/chapter-5/</link>
-      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/chapter-5/</guid>
-      <description>In the twinkling of an eye, all was ready to execute Coppenole’s idea. Bourgeois, scholars and law clerks all set to work. The little chapel situated opposite the marble table was selected for the scene of the grinning match. A pane broken in the pretty rose window above the door, left free a circle of stone through which it was agreed that the competitors should thrust their heads. In order to reach it, it was only necessary to mount upon a couple of hogsheads, which had been produced from I know not where, and perched one upon the other, after a fashion.</description>
+The first step was to collect and catalog data from Amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase.</description>
     </item>
     
   </channel>

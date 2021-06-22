@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Robust Value Approximation | Brendan Crowe</title>
+    <title>Novel research on Inverse Reinforcement Learning | Brendan Crowe</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Using approximate linear programming and robust optimization to solve a COVID-19 lockdown control task">
+    <meta name="description" content="Robust Inverse Reinforcement Learning">
     <meta name="generator" content="Hugo 0.68.3" />
     
     
@@ -30,23 +30,23 @@
 
     
     
-    <meta property="og:title" content="Robust Value Approximation" />
-<meta property="og:description" content="Using approximate linear programming and robust optimization to solve a COVID-19 lockdown control task" />
+    <meta property="og:title" content="Novel research on Inverse Reinforcement Learning" />
+<meta property="og:description" content="Robust Inverse Reinforcement Learning" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://brendanjcrowe.github.io/portfolio/post/project-2/" />
-<meta property="article:published_time" content="2021-04-10T11:00:59-04:00" />
-<meta property="article:modified_time" content="2021-04-10T11:00:59-04:00" />
-<meta itemprop="name" content="Robust Value Approximation">
-<meta itemprop="description" content="Using approximate linear programming and robust optimization to solve a COVID-19 lockdown control task">
-<meta itemprop="datePublished" content="2021-04-10T11:00:59-04:00" />
-<meta itemprop="dateModified" content="2021-04-10T11:00:59-04:00" />
-<meta itemprop="wordCount" content="172">
+<meta property="og:url" content="https://brendanjcrowe.github.io/portfolio/post/project-5/" />
+<meta property="article:published_time" content="2021-05-13T11:15:58-04:00" />
+<meta property="article:modified_time" content="2021-05-13T11:15:58-04:00" />
+<meta itemprop="name" content="Novel research on Inverse Reinforcement Learning">
+<meta itemprop="description" content="Robust Inverse Reinforcement Learning">
+<meta itemprop="datePublished" content="2021-05-13T11:15:58-04:00" />
+<meta itemprop="dateModified" content="2021-05-13T11:15:58-04:00" />
+<meta itemprop="wordCount" content="110">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Robust Value Approximation"/>
-<meta name="twitter:description" content="Using approximate linear programming and robust optimization to solve a COVID-19 lockdown control task"/>
+<meta name="twitter:title" content="Novel research on Inverse Reinforcement Learning"/>
+<meta name="twitter:description" content="Robust Inverse Reinforcement Learning"/>
 
 	
   </head>
@@ -59,7 +59,7 @@
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://brendanjcrowe.github.io/portfolio/images/policy.png');">
+  <header class="cover bg-top" style="background-image: url('https://brendanjcrowe.github.io/portfolio/images/mc_methods.png');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -144,10 +144,10 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Robust Value Approximation</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Novel research on Inverse Reinforcement Learning</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Using approximate linear programming and robust optimization to solve a COVID-19 lockdown control task
+              Robust Inverse Reinforcement Learning
             </h2>
           
         
@@ -166,25 +166,22 @@
           
         PROJECTS
       </aside>
-      <h1 class="f1 athelas mt3 mb1">Robust Value Approximation</h1>
+      <h1 class="f1 athelas mt3 mb1">Novel research on Inverse Reinforcement Learning</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2021-04-10T11:00:59-04:00">April 10, 2021</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-05-13T11:15:58-04:00">May 13, 2021</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This project has 3 main goals:</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Continuing as a post-graduate researcher I am part of a group researching improvments to existing Inverse Reinfrocment Learning (IRL) techniques. In partiuclare our research strives to improve linear programming appraoched to robust IRL. Our goals are:</p>
 <ul>
-<li>Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP)</li>
-<li>Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL)</li>
-<li>Use these methods to solve COVID-19 lockdown strategy as a control problem</li>
+<li>Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards</li>
+<li>Improve estimation of the experts policy using adjustments to monte carlo methods</li>
+<li>Connect our work to <a href="https://arxiv.org/abs/2007.12315">BROIL</a>, and show we can make it more scalable</li>
+<li>Show what we are doing is a special case of <a href="https://arxiv.org/abs/2007.12315">BROIL</a> <a href="https://arxiv.org/abs/1606.03476">GAIL</a></li>
 </ul>
-<p>We can title the overarching strategy Robust Value Approximation (RoVA).
-We first use Approximate Robust Linear Programming for Imitation Learnin wherein we combine RIRL and ALP, which can be solved as a linear program
-We then further discuss and show how this concept could be applied to extend BROIL, which uses Conditional Value at Risk (CVaR) instead of a minmax problem</p>
-<p>Finally we justify COVID-19 lowdown strategy as an ideal candidate for these methods, as there are many possible reward functions that a government may try to optimize when constructing a lockdown policy. In this case on may want to find a lockdown policy that is robust to the worst case scenarios for each of these possible reward functions.</p>
-<p>All code and formalized paper can be found on <a href="https://github.com/brendanjcrowe/BROIL_ALP">GitHub</a></p>
+<p>Since this is an ongoing work, and I am not the sole contributor I cannot link to any code or reports.</p>
 <ul class="pa0">
   
 </ul>

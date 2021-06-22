@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Sales volume prediction and automated purchasing pipeline | Brendan Crowe</title>
+    <title>Sales volume prediction | Brendan Crowe</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Using General Linear Regression predict salves volumes to inform automated purchasing system">
     <meta name="generator" content="Hugo 0.68.3" />
@@ -30,22 +30,22 @@
 
     
     
-    <meta property="og:title" content="Sales volume prediction and automated purchasing pipeline" />
+    <meta property="og:title" content="Sales volume prediction" />
 <meta property="og:description" content="Using General Linear Regression predict salves volumes to inform automated purchasing system" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://brendanjcrowe.github.io/portfolio/post/project-3/" />
 <meta property="article:published_time" content="2020-03-11T11:13:32-04:00" />
 <meta property="article:modified_time" content="2020-03-11T11:13:32-04:00" />
-<meta itemprop="name" content="Sales volume prediction and automated purchasing pipeline">
+<meta itemprop="name" content="Sales volume prediction">
 <meta itemprop="description" content="Using General Linear Regression predict salves volumes to inform automated purchasing system">
 <meta itemprop="datePublished" content="2020-03-11T11:13:32-04:00" />
 <meta itemprop="dateModified" content="2020-03-11T11:13:32-04:00" />
-<meta itemprop="wordCount" content="291">
+<meta itemprop="wordCount" content="292">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Sales volume prediction and automated purchasing pipeline"/>
+<meta name="twitter:title" content="Sales volume prediction"/>
 <meta name="twitter:description" content="Using General Linear Regression predict salves volumes to inform automated purchasing system"/>
 
 	
@@ -144,7 +144,7 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Sales volume prediction and automated purchasing pipeline</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Sales volume prediction</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
               Using General Linear Regression predict salves volumes to inform automated purchasing system
@@ -166,7 +166,7 @@
           
         PROJECTS
       </aside>
-      <h1 class="f1 athelas mt3 mb1">Sales volume prediction and automated purchasing pipeline</h1>
+      <h1 class="f1 athelas mt3 mb1">Sales volume prediction</h1>
       
       
       <time class="f6 mv4 dib tracked" datetime="2020-03-11T11:13:32-04:00">March 11, 2020</time>
@@ -175,7 +175,7 @@
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>At Brands-Express LLC there was a need to make accurate and fast automated purchases of inventory products. I designed and implemented an end-to-end data/machine learning pipeline that met the specifications of the CEO.</p>
-<p>The first step was to collect and catalog data from amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase. This is necessary to make sure the data we trained on would be from the same population as data we wanted to predict on. Next, using general linear regression with a poisson prior we trained a predictor using ~ 50 product features to predict sales volume, using a 70-30% train test split. The poisson prior was chosen because sales volumes is a cyclic non-negative process, additionally experiments with cross validation showed that a poisson prior performed best. Finally, script was written to use predicted sales volume, other product data, and business logic to determine whether or not to buy and what quantity of a product to purchase. These purchases orders were then automatically made via API and routed to the appropriate warehouse.</p>
+<p>The first step was to collect and catalog data from Amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase. This is necessary to make sure the data we trained on would be from the same population as data we wanted to predict on. Next, using general linear regression with a poisson prior we trained a predictor using ~ 50 product features to predict sales volume, using a 70-30% train test split. The poisson prior was chosen because sales volumes is a cyclic non-negative process, additionally experiments with cross validation showed that a poisson prior performed best. Finally, a script was written to use predicted sales volume, other product data, and business logic to determine whether or not to buy and what quantity of a product to purchase. These purchases orders were then automatically made via API and routed to the appropriate warehouse.</p>
 <p>The result of this work is an end-to-end automated data pipeline that is able to analyse and purchase products without any human interaction. The steps of the pipeline are:</p>
 <ul>
 <li>Ingest a supplier/distributer price sheet via API endpoint</li>

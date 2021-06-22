@@ -6,7 +6,7 @@
     
     <title>Projects | Brendan Crowe</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="      ">
+    <meta name="description" content="    ">
     <meta name="generator" content="Hugo 0.68.3" />
     
     
@@ -36,14 +36,14 @@
     
     
     <meta property="og:title" content="Projects" />
-<meta property="og:description" content="      " />
+<meta property="og:description" content="    " />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://brendanjcrowe.github.io/portfolio/post/" />
 <meta property="og:updated_time" content="2017-03-02T12:00:00-05:00" />
 <meta itemprop="name" content="Projects">
-<meta itemprop="description" content="      "><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="    "><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
-<meta name="twitter:description" content="      "/>
+<meta name="twitter:description" content="    "/>
 
 	
   </head>
@@ -161,17 +161,59 @@
             <div class="mb3 pa4 mid-gray overflow-hidden">
     
       <div class="f6">
+        May 13, 2021
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="https://brendanjcrowe.github.io/portfolio/post/project-5/" class="link black dim">
+        Novel research on Inverse Reinforcement Learning
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Continuing as a post-graduate researcher I am part of a group researching improvments to existing Inverse Reinfrocment Learning (IRL) techniques. In partiuclare our research strives to improve linear programming appraoched to robust IRL. Our goals are:
+ Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards Improve estimation of the experts policy using adjustments to monte carlo methods Connect our work to BROIL, and show we can make it more scalable Show what we are doing is a special case of BROIL GAIL  Since this is an ongoing work, and I am not the sole contributor I cannot link to any code or reports.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
         April 10, 2021
       </div>
     
     <h1 class="f3 near-black">
       <a href="https://brendanjcrowe.github.io/portfolio/post/project-2/" class="link black dim">
-        ALP &amp; RIRL
+        Robust Value Approximation
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       This project has 3 main goals:
- Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP) Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL) Use these methods to solve COVID-19 lockdown strategy as a control problem  We can title the overarching strategy Robust Value Approximation (RoVA). We can our first method Approximate Robust Linear Programming for Imitation Learning (ARLP-IL) We can further call our second approach Bayesian Approximate Robust Imitation Learning (BARIL)
+ Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP) Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL) Use these methods to solve COVID-19 lockdown strategy as a control problem  We can title the overarching strategy Robust Value Approximation (RoVA). We first use Approximate Robust Linear Programming for Imitation Learnin wherein we combine RIRL and ALP, which can be solved as a linear program We then further discuss and show how this concept could be applied to extend BROIL, which uses Conditional Value at Risk (CVaR) instead of a minmax problem
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        February 13, 2021
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="https://brendanjcrowe.github.io/portfolio/post/project-6/" class="link black dim">
+        Policy and Value Iteration
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      In my time studying Reinforcement Learning, me and some of my peers implemented policy and value iterations at several levels of efficiency. We test our implementations using made up COVID-19 data.
+Code is provided on GitHub
     </div>
   </div>
 
@@ -191,7 +233,7 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Robust Probabilistic Imitation Learning (RPIL) is a method that I conceived where in we model a set of expert demonstrations are having two sources, a true expert and an adversary. Using logistic regression we can pose the problem as a mixture of multinomial logistic regression models. From there we can solve the non-convex optimization using a Expectation Maximization like algorithm. Experimentally I show that this algorithm can detect and remove bad demonstrations from the training set and thus perform much better that if the demonstrations are considered to be correct.
+      Robust Probabilistic Imitation Learning (RPIL) is a method that I conceived where in I model a set of expert demonstrations are having two sources, a true expert and an adversary. Using logistic regression we can pose the problem as a mixture of multinomial logistic regression models. From there we can solve the non-convex optimization using an Expectation Maximization like algorithm. Experimentally I show that this algorithm can detect and remove adversarial demonstrations from the training set and thus perform much better that if the demonstrations are considered to be correct.
     </div>
   </div>
 
@@ -211,7 +253,7 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      While the pensioner of Ghent and his eminence were exchanging very low bows and a few words in voices still lower, a man of lofty stature, with a large face and broad shoulders, presented himself, in order to enter abreast with Guillaume Rym; one would have pronounced him a bull-dog by the side of a fox. His felt doublet and leather jerkin made a spot on the velvet and silk which surrounded him.
+      After learning about probabilistic and neural approaches to sequential machine learning I decided to apply what I had learned to the Imitation Learning (IL) domain. Since many reinforcement learning tasks can be models as Markov Decision Processes (MDPs) that have a sequential nature, I thought that it would be interesting to see in we could using neural networks and Conditional Random Fields (CRFs) to do Behavioral Cloning (BC). I decided to try solving several of the classic control tasks (mountain car, acrobot, etc) using a CRF and a bidirectional Long Short Term Memory (LSTM).
     </div>
   </div>
 
@@ -227,12 +269,12 @@
     
     <h1 class="f3 near-black">
       <a href="https://brendanjcrowe.github.io/portfolio/post/project-3/" class="link black dim">
-        Sales volume prediction and automated purchasing pipeline
+        Sales volume prediction
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       At Brands-Express LLC there was a need to make accurate and fast automated purchases of inventory products. I designed and implemented an end-to-end data/machine learning pipeline that met the specifications of the CEO.
-The first step was to collect and catalog data from amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase.
+The first step was to collect and catalog data from Amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase.
     </div>
   </div>
 
@@ -240,50 +282,6 @@ The first step was to collect and catalog data from amazon with approximate sale
       
     </aside>
     
-
-<ul class="pagination">
-    
-    <li class="page-item">
-        <a href="https://brendanjcrowe.github.io/portfolio/post/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-    </li>
-    
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item active"><a class="page-link" href="https://brendanjcrowe.github.io/portfolio/post/">1</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="https://brendanjcrowe.github.io/portfolio/post/page/2/">2</a></li>
-    
-    
-    <li class="page-item">
-    <a href="https://brendanjcrowe.github.io/portfolio/post/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-    </li>
-    
-    <li class="page-item">
-        <a href="https://brendanjcrowe.github.io/portfolio/post/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-    </li>
-    
-</ul>
 
 
   </article>
