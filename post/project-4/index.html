@@ -34,12 +34,10 @@
 <meta property="og:description" content="Direct policy learning for several classical control tasks using sequential machine learning frameworks" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://brendanjcrowe.github.io/portfolio/post/project-4/" />
-<meta property="article:published_time" content="2020-10-12T11:14:48-04:00" />
-<meta property="article:modified_time" content="2020-10-12T11:14:48-04:00" />
+
 <meta itemprop="name" content="Behavioral Cloning using Seq-2-seq models">
 <meta itemprop="description" content="Direct policy learning for several classical control tasks using sequential machine learning frameworks">
-<meta itemprop="datePublished" content="2020-10-12T11:14:48-04:00" />
-<meta itemprop="dateModified" content="2020-10-12T11:14:48-04:00" />
+
 <meta itemprop="wordCount" content="337">
 
 
@@ -169,13 +167,13 @@
       <h1 class="f1 athelas mt3 mb1">Behavioral Cloning using Seq-2-seq models</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-10-12T11:14:48-04:00">October 12, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="0001-01-01T00:00:00Z">January 1, 0001</time>
 
       
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>After learning about probabilistic and neural approaches to sequential machine learning I decided to apply what I had learned to the Imitation Learning (IL) domain. Since many reinforcement learning tasks can be models as Markov Decision Processes (MDPs) that have a sequential nature, I thought that it would be interesting to see in we could using neural networks and Conditional Random Fields (CRFs) to do Behavioral Cloning (BC). I decided to try solving several of the classic control tasks (mountain car, acrobot, etc) using a CRF and a bidirectional Long Short Term Memory (LSTM). I then compared my results with a respected method, Generative Adversarial Imitation Learning (GAIL), and a baseline (Logistic Regression).</p>
-<p>For the LSTM I choose bi-directional because it more accurately captured the relationship between the action and the next state than a uni-directional LSTM could. While this violates the Markovian assumption of an MDP it proved to work well. Another problem with the LSTM was that when using the model in the actually environment it could not accurately predict the action at the begin of an episode. I was able to solve this problem by taking the train data and augmenting it. Each demonstration was turned into a distinct number of demonstration equal to the length of the original demonstration. In doing this the LSTM was able to learn the starting behavior better. FOr example if my original training data had been a single demonstration of length 100, my augmented training data would be 100 demonstrations of length 1, 2, &hellip;, 100.</p>
+<p>For the LSTM I choose bi-directional because it more accurately captured the relationship between the action and the next state than a uni-directional LSTM could. While this violates the Markovian assumption of an MDP it proved to work well. Another problem with the LSTM was that when using the model in the actual environment it could not accurately predict the action at the begin of an episode. I was able to solve this problem by taking the training data and augmenting it. Each demonstration was turned into a number of distinct demonstration equal to the length of the original demonstration. In doing this the LSTM was able to learn the starting behavior better. For example if my original training data had been a single demonstration of length 100, my augmented training data would be 100 demonstrations of length 1, 2, &hellip;, 100.</p>
 <p>For the CRF I used a simple linear chain CRF and then added a dependency on the previous state. This again violated the Markovian assumption, but worked very well. The CRF was able to achieve performance close to that of GAIL and the LSTM and took a fraction of the time to train.</p>
 <p>A more in depth discussion of the results can be found in the paper and presentation. These write ups, as well as the code can be found of <a href="https://github.com/brendanjcrowe/BC-using-seq-2-seq-models">GitHub</a></p>
 <ul class="pa0">
