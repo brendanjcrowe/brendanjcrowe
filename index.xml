@@ -6,37 +6,67 @@
     <description>Recent content on Brendan Crowe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 May 2021 11:15:58 -0400</lastBuildDate>
     
 	<atom:link href="https://brendanjcrowe.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Novel research on Inverse Reinforcement Learning</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-5/</link>
+      <pubDate>Thu, 13 May 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-5/</guid>
+      <description>Continuing as a post-graduate researcher, I am part of a group researching improvements to existing Inverse Reinforcement Learning (IRL) techniques. In particular our research strives to improve linear programming approaches to robust IRL. Our goals are:
+  Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards. Improve estimation of the experts policy using adjustments to monte carlo methods. Connect our work to BROIL, and show we can make it more scalable.</description>
+    </item>
+    
+    <item>
+      <title>Robust Value Approximation</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-2/</link>
+      <pubDate>Sat, 10 Apr 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-2/</guid>
+      <description>This project has 3 main goals:
+ Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP). Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL). Use these methods to solve COVID-19 lockdown strategy as a control problem.  We can title the overarching strategy Robust Value Approximation (RoVA). We first use Approximate Robust Linear Programming for Imitation Learning wherein we combine RIRL and ALP, which can be solved as a linear program.</description>
+    </item>
+    
+    <item>
+      <title>Policy and Value Iteration</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-6/</link>
+      <pubDate>Sat, 13 Feb 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-6/</guid>
+      <description>In my time studying Reinforcement Learning, my peers and I implemented policy and value iterations at several levels of efficiency. We tested our implementations using made up COVID-19 data.
+Code is provided on GitHub</description>
+    </item>
+    
+    <item>
       <title>Robust Probabilistic Imitation Learning</title>
       <link>https://brendanjcrowe.github.io/portfolio/post/project-1/</link>
-      <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
+      <pubDate>Tue, 15 Dec 2020 10:58:08 -0400</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/post/project-1/</guid>
       <description>Robust Probabilistic Imitation Learning (RPIL) is a method that I conceived where in I model a set of expert demonstrations as having two sources, a true expert and an adversary. We can pose the problem as a mixture of multinomial logistic regression models. From there we can solve the non-convex optimization using an Expectation Maximization like algorithm. Experimentally I show that this algorithm can detect and remove adversarial demonstrations from the training set and thus perform much better than if the demonstrations are considered to be correct.</description>
     </item>
     
     <item>
+      <title>Behavioral Cloning using Seq-2-seq models</title>
+      <link>https://brendanjcrowe.github.io/portfolio/post/project-4/</link>
+      <pubDate>Mon, 12 Oct 2020 11:14:48 -0400</pubDate>
+      
+      <guid>https://brendanjcrowe.github.io/portfolio/post/project-4/</guid>
+      <description>After learning about probabilistic and neural approaches to sequential machine learning I decided to apply what I had learned to the Imitation Learning (IL) domain. Since many reinforcement learning tasks can be models as Markov Decision Processes (MDPs) that have a sequential nature, I thought that it would be interesting to see in we could using neural networks and Conditional Random Fields (CRFs) to do Behavioral Cloning (BC). I decided to try solving several of the classic control tasks (mountain car, acrobot, etc) using a CRF and a bidirectional Long Short Term Memory (LSTM).</description>
+    </item>
+    
+    <item>
       <title>Sales volume prediction</title>
       <link>https://brendanjcrowe.github.io/portfolio/post/project-3/</link>
-      <pubDate>Wed, 11 Mar 2020 11:13:32 -0400</pubDate>
+      <pubDate>Sat, 11 Apr 2020 11:13:32 -0400</pubDate>
       
       <guid>https://brendanjcrowe.github.io/portfolio/post/project-3/</guid>
       <description>At Brands-Express LLC there was a need to make accurate and fast automated purchases of inventory products. I designed and implemented an end-to-end data/machine learning pipeline that met the specifications of the CEO.
 The first step was to collect and catalog data from Amazon with approximate sales volumes for ~ 50,000 products. Then the data was cleaned and analysed, making sure to only keep products that would meet the specifications for a purchase.</description>
-    </item>
-    
-    <item>
-      <title>Behavioral Cloning using Seq-2-seq models</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/project-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/project-4/</guid>
-      <description>After learning about probabilistic and neural approaches to sequential machine learning I decided to apply what I had learned to the Imitation Learning (IL) domain. Since many reinforcement learning tasks can be models as Markov Decision Processes (MDPs) that have a sequential nature, I thought that it would be interesting to see in we could using neural networks and Conditional Random Fields (CRFs) to do Behavioral Cloning (BC). I decided to try solving several of the classic control tasks (mountain car, acrobot, etc) using a CRF and a bidirectional Long Short Term Memory (LSTM).</description>
     </item>
     
     <item>
@@ -46,36 +76,6 @@ The first step was to collect and catalog data from Amazon with approximate sale
       
       <guid>https://brendanjcrowe.github.io/portfolio/contact/</guid>
       <description>         Email: brendancrowe98@gmail.com   Phone: (978)-501-1290   LinkedIn: https://www.linkedin.com/in/brendan-j-crowe/   GitHub: https://github.com/brendanjcrowe   GitLab: https://gitlab.com/brendanjcrowe    </description>
-    </item>
-    
-    <item>
-      <title>Novel research on Inverse Reinforcement Learning</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/project-5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/project-5/</guid>
-      <description>Continuing as a post-graduate researcher, I am part of a group researching improvements to existing Inverse Reinforcement Learning (IRL) techniques. In particular our research strives to improve linear programming approaches to robust IRL. Our goals are:
-  Improve time complexity and accuracy bounds on robust IRL by constructing a convex set of rewards Improve estimation of the experts policy using adjustments to monte carlo methods Connect our work to BROIL, and show we can make it more scalable Show what we are doing is a special case of BROIL and GAIL  Since this is an ongoing work and I am not the sole contributor, I cannot link to any code or reports.</description>
-    </item>
-    
-    <item>
-      <title>Policy and Value Iteration</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/project-6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/project-6/</guid>
-      <description>In my time studying Reinforcement Learning, my peers and I implemented policy and value iterations at several levels of efficiency. We tested our implementations using made up COVID-19 data.
-Code is provided on GitHub</description>
-    </item>
-    
-    <item>
-      <title>Robust Value Approximation</title>
-      <link>https://brendanjcrowe.github.io/portfolio/post/project-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanjcrowe.github.io/portfolio/post/project-2/</guid>
-      <description>This project has 3 main goals:
- Combine Robust Inverse Reinforcement Learning (RIRL) with Approximate Linear Programming (ALP) Extend this concept to combine ALP and Bayesian Robust Optimization for Imitation Learning (BROIL) Use these methods to solve COVID-19 lockdown strategy as a control problem  We can title the overarching strategy Robust Value Approximation (RoVA). We first use Approximate Robust Linear Programming for Imitation Learning wherein we combine RIRL and ALP, which can be solved as a linear program.</description>
     </item>
     
   </channel>
